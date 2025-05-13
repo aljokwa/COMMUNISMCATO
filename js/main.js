@@ -186,9 +186,10 @@ window.addEventListener('resize', () => {
     renderer.setSize(window.innerWidth, window.innerHeight);
 });
 
-// Start background music
+// Start background music and random sounds
 document.addEventListener('click', () => {
     backgroundMusic.play();
+    startRandomSounds();
 }, { once: true });
 
 // Initialize and start
